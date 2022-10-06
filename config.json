@@ -1,0 +1,60 @@
+{
+  "log": {
+    "loglevel": "info"
+  },
+  "inbounds": [
+    {
+      "port": 80,
+      "protocol": "vmess",
+      "allocate": {
+        "strategy": "always"
+      },
+      "settings": {
+        "clients": [
+          {
+            "id": "c989d1e5-3e7f-4914-b55c-b5e2cad53bfc",
+            "level": 1,
+            "alterId": 0,
+            "email": "client@example.com"
+          }
+        ],
+        "disableInsecureEncryption": true
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/graphql"
+        },
+        "security": "none",
+        "tcpSettings": {
+          "header": {
+            "type": "http",
+            "response": {
+              "version": "1.1",
+              "status": "200",
+              "reason": "OK",
+              "headers": {
+                "Content-Type": [
+                  "application/octet-stream",
+                  "application/x-msdownload",
+                  "text/html",
+                  "application/x-shockwave-flash"
+                ],
+                "Transfer-Encoding": ["chunked"],
+                "Connection": ["keep-alive"],
+                "Pragma": "no-cache"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+} 
