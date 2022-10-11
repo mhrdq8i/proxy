@@ -39,7 +39,7 @@ cat > config.json << conf
           {
             "id": "$UUID",
             "level": 1,
-            "alterId": 0,
+            "alterId": 10,
             "email": "client@example.com"
           }
         ],
