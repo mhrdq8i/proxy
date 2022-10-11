@@ -1,7 +1,7 @@
 #!/bin/bash
 
-read -p "Enter -Internal- server address: " $int_server
-read -p "Enter -External- server address: " $ext_server
+read -p "Enter -Internal- server address: " int_server
+read -p "Enter -External- server address: " ext_server
 
 sysctl -w net.ipv4.ip_forward=1
 
