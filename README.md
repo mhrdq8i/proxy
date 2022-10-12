@@ -52,6 +52,8 @@ First option is our recommendation, but have two or more of apps in case off sig
 ## IOS clients:
 [ShadowLink](https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518)
 
+[NapsternetV](https://apps.apple.com/us/app/napsternetv/id1629465476)
+
 [Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118)
 
 [i2Ray](https://apps.apple.com/us/app/i2ray/id1445270056)
