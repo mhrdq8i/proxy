@@ -1,16 +1,15 @@
 # v2ray proxy
 
-### In this scenario we used two machines (VPS), IR `internal` & non-IR `external` running on `ubuntu 22.04`
+### In this scenario there is two machines (VPS), IR: `internal` & non-IR: `external` running on `ubuntu 22.04`.
 
 ## How to Run
 
-In both side install `git` for clonning [this repo](https://github.com/mehrdad-drpc/proxy)
+In both servers install `git` for clonning [this repo](https://github.com/mehrdad-drpc/proxy).
 
 ```bash
 apt install git -y
 ```
 
----
 
 **Internal:**
 
@@ -30,7 +29,7 @@ chmod +x external.sh
 
 ---
 
-### check open ports and running cotainters
+### Check open ports and running cotainters
 
 ```bash
 ss -tlpn
@@ -39,14 +38,35 @@ docker ps
 
 ---
 
-## V2ray Clients
+# V2ray Clients
+First option is our recommendation, but have two or more of apps in case off signature based packet dropping.
+## Andriod clients:
+[AnXray](https://f-droid.org/packages/io.nekohasekai.anXray/)
 
-[Android](https://play.google.com/store/apps/details?id=com.v2ray.ang)
+[v2rayNG](https://play.google.com/store/apps/details?id=com.v2ray.ang)
 
-[iOS](https://apps.apple.com/us/app/shadowrocket/id932747118) - [iOS](https://apps.apple.com/us/app/i2ray/id1445270056)
+[XRAYVPN](https://play.google.com/store/apps/details?id=vpn.v2ray.xray)
 
-[windows](https://github.com/2dust/v2rayN/releases/download/5.36/v2rayN-Core.zip)
+[Matsuri](https://play.google.com/store/apps/details?id=moe.matsuri.lite)
 
-[linux](https://qv2ray.net/getting-started/step1.html#linux-debian-ubuntu-and-their-derivatives)
+## IOS clients:
+[ShadowLink](https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518)
 
-[macOS](https://github.com/Cenmrev/V2RayX/releases/tag/v1.5.1)
+[NapsternetV](https://apps.apple.com/us/app/napsternetv/id1629465476)
+
+[Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118)
+
+[i2Ray](https://apps.apple.com/us/app/i2ray/id1445270056)
+
+## Windows clinets:
+[v2rayN](https://github.com/2dust/v2rayN/)
+
+[NekoRay](https://github.com/MatsuriDayo/nekoray/releases)
+
+## Linux clients:
+[NekoRay](https://github.com/MatsuriDayo/nekoray/releases)
+
+[qv2ray](https://qv2ray.net/getting-started/step1.html#linux-debian-ubuntu-and-their-derivatives)
+
+## MacOS clients:
+[V2RayX](https://github.com/Cenmrev/V2RayX/releases/)
