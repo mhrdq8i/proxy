@@ -4,10 +4,8 @@ read -p "Enter -IR- server address: " IR_SERVER
 
 # Add iptables rules
 iptables -t filter -D INPUT -s $IR_SERVER/32 -p tcp -m tcp --dport 80  -j ACCEPT 2>/dev/null
-iptables -t filter -D INPUT -s $IR_SERVER/32 -p tcp -m tcp --dport 443  -j ACCEPT 2>/dev/null
 
 iptables -t filter -A INPUT -s $IR_SERVER/32 -p tcp -m tcp --dport 80 -j ACCEPT
-iptables -t filter -A INPUT -s $IR_SERVER/32 -p tcp -m tcp --dport 443 -j ACCEPT
 
 # Install docker and docker-compose
 apt update -y
