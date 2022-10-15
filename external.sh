@@ -15,6 +15,7 @@ apt install -y docker.io docker-compose
 
 # Gather host information
 UUID=$(cat /proc/sys/kernel/random/uuid)
+AID=10
 IP=$(hostname -I | cut -d' ' -f1)
 PORT=80
 NETW=ws
@@ -39,7 +40,7 @@ cat > config.json << conf
           {
             "id": "$UUID",
             "level": 1,
-            "alterId": 10,
+            "alterId": $AID,
             "email": "client@example.com"
           }
         ],
@@ -93,6 +94,7 @@ printf "SET These to your v2ray client.\n"
 echo "* IP: $IP"
 echo "* Port: $PORT"
 echo "* UUID: $UUID"
+echo "* Alter-ID: $AID"
 echo "* Encryption: auto"
 echo "* Network: $NETW"
 echo "* ws path: $WSPATH"
