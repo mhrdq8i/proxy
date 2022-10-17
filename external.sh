@@ -89,10 +89,10 @@ docker-compose up -d
 
 # User output
 printf "SET These to your v2ray client.\n"
-echo "* IP: $IR_SERVER"
-echo "* Port: $PORT"
-echo "* UUID: $UUID"
-echo "* Alter-ID: $AID"
-echo "* Encryption: auto"
-echo "* Network: $NETW"
-echo "* ws path: $WSPATH"
+echo -e "\033[1;30m* IP: $IR_SERVER"
+echo -e "* Port: $PORT"
+echo -e "* UUID: $UUID"
+echo -e "* Alter-ID: $AID"
+echo -e "* Encryption: auto"
+echo -e "* Network: $NETW"
+echo -e "* ws path: $WSPATH"
