@@ -40,7 +40,7 @@ docker ps
 
 # V2ray Clients
 First option is our recommendation, but have two or more of apps in case off signature based packet dropping.
-## Andriod clients:
+## Android clients:
 [AnXray](https://f-droid.org/packages/io.nekohasekai.anXray/)
 
 [v2rayNG](https://play.google.com/store/apps/details?id=com.v2ray.ang)
@@ -53,6 +53,8 @@ First option is our recommendation, but have two or more of apps in case off sig
 [ShadowLink](https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518)
 
 [NapsternetV](https://apps.apple.com/us/app/napsternetv/id1629465476)
+
+[OneClick](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
 
 [Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118)
 
