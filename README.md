@@ -16,7 +16,7 @@ apt install git -y
 ```bash
 git clone https://github.com/mehrdad-drpc/proxy.git
 chmod +x internal.sh
-./internal.sh
+bash internal.sh
 ```
 
 **External:**
@@ -24,7 +24,7 @@ chmod +x internal.sh
 ```bash
 git clone https://github.com/mehrdad-drpc/proxy.git
 chmod +x external.sh
-./external.sh
+bash external.sh
 ```
 
 ---
