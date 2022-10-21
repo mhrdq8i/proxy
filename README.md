@@ -19,7 +19,7 @@ chmod +x internal.sh
 bash internal.sh
 ```
 
-**External:**
+**External:** `non-IR`
 
 ```bash
 git clone https://github.com/mehrdad-drpc/proxy.git
