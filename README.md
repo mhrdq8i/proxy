@@ -11,7 +11,7 @@ apt install git -y
 ```
 
 
-**Internal:**
+**Internal:**IR
 
 ```bash
 git clone https://github.com/mehrdad-drpc/proxy.git
