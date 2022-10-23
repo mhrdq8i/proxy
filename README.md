@@ -1,6 +1,6 @@
 # v2ray proxy
 
-**In this scenario there are two machines (VPS), IR: `internal` & non-IR: `external` running on `ubuntu 22.04`.**
+**In this scenario there are two machines (VPS), IR: `internal` & non-IR: `external` which running on `ubuntu 22.04`.**
 
 ## How to Run
 
