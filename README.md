@@ -17,6 +17,7 @@ apt install git -y
 git clone https://github.com/mehrdad-drpc/proxy.git
 chmod +x internal.sh
 bash internal.sh
+bash fake_traffic.sh
 ```
 
 **External:** `non-IR`
