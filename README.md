@@ -79,3 +79,6 @@ First option is our recommendation, but have two or more of apps in case off sig
 
 ## MacOS clients:
 [V2RayX](https://github.com/Cenmrev/V2RayX/releases/)
+
+[NekoRay](https://github.com/MatsuriDayo/nekoray/releases)
+
