@@ -28,6 +28,9 @@ chmod +x external.sh
 bash external.sh
 ```
 
+**Note:**
+Change to root directory before git clone
+
 ---
 
 ### Check open ports and running cotainters
