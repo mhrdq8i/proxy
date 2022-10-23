@@ -32,7 +32,7 @@ bash external.sh
 
 
 **Note:**
-Change to user directory [/root] before git clone
+Change to user directory `[/root]` before git clone
 
 ---
 
