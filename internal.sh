@@ -15,4 +15,4 @@ iptables -t nat -A PREROUTING -d $INT_SERVER/32 -p tcp -m tcp --dport 80  -j DNA
 iptables -t nat -A POSTROUTING -j MASQUERADE
 iptables -t filter -A FORWARD -j ACCEPT
 
- echo "0 3 * * * /root/fake_traffic.sh" >> /var/spool/cron/crontabs/root
+echo "0 3 * * * /root/fake_traffic.sh" >> /var/spool/cron/crontabs/root
