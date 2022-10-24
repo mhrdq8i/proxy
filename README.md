@@ -68,9 +68,9 @@ First option is our recommendation, but have two or more of apps in case off sig
 [i2Ray](https://apps.apple.com/us/app/i2ray/id1445270056)
 
 ## Windows clinets:
-[v2rayN](https://github.com/2dust/v2rayN/)
-
 [NekoRay](https://github.com/MatsuriDayo/nekoray/releases)
+
+[v2rayN](https://github.com/2dust/v2rayN/)
 
 ## Linux clients:
 [NekoRay](https://github.com/MatsuriDayo/nekoray/releases)
@@ -78,7 +78,6 @@ First option is our recommendation, but have two or more of apps in case off sig
 [qv2ray](https://qv2ray.net/getting-started/step1.html#linux-debian-ubuntu-and-their-derivatives)
 
 ## MacOS clients:
-[V2RayX](https://github.com/Cenmrev/V2RayX/releases/)
-
 [NekoRay](https://github.com/MatsuriDayo/nekoray/releases)
 
+[V2RayX](https://github.com/Cenmrev/V2RayX/releases/)
