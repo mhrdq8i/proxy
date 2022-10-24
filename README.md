@@ -48,9 +48,9 @@ docker ps
 # V2ray Clients
 First option is our recommendation, but have two or more of apps in case off signature based packet dropping.
 ## Android clients:
-[AnXray](https://f-droid.org/packages/io.nekohasekai.anXray/)
-
 [v2rayNG](https://play.google.com/store/apps/details?id=com.v2ray.ang)
+
+[AnXray](https://f-droid.org/packages/io.nekohasekai.anXray/)
 
 [XRAYVPN](https://play.google.com/store/apps/details?id=vpn.v2ray.xray)
 
