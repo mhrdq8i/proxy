@@ -15,7 +15,8 @@ apt install git -y
 
 ```bash
 git clone https://github.com/mehrdad-drpc/proxy.git
-chmod +x internal.sh
+cd proxy 
+chmod +x internal.sh fake_traffic.sh
 bash internal.sh
 bash fake_traffic.sh
 ```
@@ -24,6 +25,7 @@ bash fake_traffic.sh
 
 ```bash
 git clone https://github.com/mehrdad-drpc/proxy.git
+cd proxy 
 chmod +x external.sh
 bash external.sh
 ```
